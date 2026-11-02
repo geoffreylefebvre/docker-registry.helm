@@ -97,7 +97,7 @@ secrets:
 # Use a secret ref with the endpoint for an endpoint stored outside the chart
 #   s3RegionEndpoint:
 #     secretRef: ""
-#     keyName: "" # defaults to s3RegionEndpoint if not specified
+#     name: "" # defaults to s3RegionEndpoint if not specified
 #
 # Secrets for Swift username and password
 #   swift:

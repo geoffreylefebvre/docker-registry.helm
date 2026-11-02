@@ -93,7 +93,7 @@ their default values.
 | `secrets.s3.accessKeyName`  | The name of the field in the secret containing the s3 access key                           | `"s3AccessKey"` |
 | `secrets.s3.secretKeyName`  | The name of the field in the secret containing the s3 secret key                           | `"s3SecretKey"` |
 | `secrets.s3RegionEndpoint.secretRef`      | The ref for an external secret containing the s3 region endpoint             | `""`            |
-| `secrets.s3RegionEndpoint.keyName`      | The name of the field in the secret containing the s3 region endpoint          | `"s3RegionEndpoint"` |
+| `secrets.s3RegionEndpoint.name`      | The name of the field in the secret containing the s3 region endpoint          | `"s3RegionEndpoint"` |
 | `secrets.swift.username`    | Username for Swift configuration                                                           | `nil`           |
 | `secrets.swift.password`    | Password for Swift configuration                                                           | `nil`           |
 | `secrets.haSharedSecret`    | Shared secret for Registry                                                                 | `nil`           |
