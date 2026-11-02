@@ -94,7 +94,7 @@ secrets:
 #     accessKey: ""
 #     secretKey: ""
 # Secrets for S3 region endpoint
-# Use a secret ref with the endpoint
+# Use a secret ref with the endpoint for an endpoint stored outside the chart
 #   s3RegionEndpoint:
 #     secretRef: ""
 #     keyName: "" # defaults to s3RegionEndpoint if not specified
